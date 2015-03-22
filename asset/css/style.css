@@ -66,7 +66,7 @@ body{
 }
 .title{
 	border: 1px solid black;
-	background-image: url("image\titlebg.png");
+	background-image: url("../images/titlebg.png");
 	background-repeat: repeat;
 	text-align: center;
 }
