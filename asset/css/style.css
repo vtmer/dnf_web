@@ -20,7 +20,7 @@ body{
 	height: 110px;
 	list-style: none;
 	margin-top: 20px;
-	margin-left: 20px;
+	margin-left: 150px;
 }
 .nav ul li{
 	float: left;
@@ -32,28 +32,90 @@ body{
 	font-size: larger;
 	color: white;
 }
-.nav ul li a:HOVER{
-	color: black;
+.nav ul li a:hover{
+	
 }
 #logo{
 	font-size: 50px;
 	font-weight: bolder;
 }
-#logo:HOVER{
+#logo:hover{
 	color: white;
 }
 #logoposition{
 	margin-top: 15px;
 }
-.banner{
-	border: 1px solid black;
-	margin-top: 200px;
+.banner1,.banner2,.banner3,.banner4,.banner5,.banner6,.banner7,.banner8,.banner9,.banner10,.banner11,.banner12,.banner13,.banner14{
+	position: absolute;
+	display: block;
+	transform:rotate(0deg);
+	-ms-transform:rotate(0deg); 	/* IE 9 */
+	-moz-transform:rotate(0deg); 	/* Firefox */
+	-webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+	-o-transform:rotate(0deg); 	/* Opera */
+}
+.banner1{
+	margin-left: 13%;
+	margin-top: 8%;
+}
+.banner2{
+	margin-left: 30%;
+	margin-top: 11%;
+}
+.banner3{
+	margin-left: 40%;
+	margin-top: 11%;
+}
+.banner4{
+	margin-left: 45%;
+	margin-top: 11%;
+}
+.banner5{
+	margin-left: 60%;
+	margin-top: 11%;
+}
+.banner6{
+	margin-left: 70%;
+	margin-top: 10%;
+}
+.banner7{
+	margin-left: 38%;
+	margin-top: 18%;
+}
+.banner8{
+	margin-left: 20%;
+	margin-top: 21%;
+}
+.banner9{
+	margin-left: 30%;
+	margin-top: 21%;
+}
+.banner10{
+	margin-left: 67%;
+	margin-top: 21%;
+}
+.banner11{
+	margin-left: 27%;
+	margin-top: 29%;
+}
+.banner12{
+	margin-left: 80%;
+	margin-top: 31%;
+}
+.banner13{
+	margin-left: 15%;
+	margin-top: 31%;
+}
+.banner14{
+	margin-left: 25%;
+	margin-top: 34%;
 }
 .scrollbtn{
-	margin-bottom: 0;
-	text-align: center;
-	margin-top: 340px;
+	margin-top: 422px;
 	border: 1px solid black;
+	position: absolute;
+	display: inline-block;
+	margin-left: 48%;
 }
 .scrollbtn a img{
 	width: 80px;
@@ -66,7 +128,7 @@ body{
 }
 .title{
 	border: 1px solid black;
-	background-image: url("../images/titlebg.png");
+	background-image: url("img/titlebg.png");
 	background-repeat: repeat;
 	text-align: center;
 }
@@ -87,23 +149,254 @@ body{
 .visual h1{
 	color: #7FB2CF;
 }
-.allproduct{
+.sudyslider{
 	width: 100%;
-	height: 70%;
-	border: 1px solid black;
-	overflow-y:auto; 
+	height: 420px;
+	display: block;
+	overflow: hidden;
+}
+.slider-container{
+	height: 65%;
+	position: relative;
+	margin-top: 3%;
+}
+.sliders{
+	position: relative;
+	white-space: nowrap;
+	left: 0;
+	margin-right: 0px;
+	padding-left: 0px;
+}
+.sliders li{
+	display: inline-block;
+	position: relative;
+	margin-right: 0.9%;
+	cursor:pointer;
+	height: 24%;
+	width: 24%;
+}
+.sliders li img{
+	width: 100%;
+	height: 100%;
+}
+.scrollbar{
+	margin-top: 20px;
+}
+.scrollcontrol{
+	width: 70%;
+	height: 15px;
+	background-color: #EFD9CE;
+	position: relative;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.widget{
+	display: block;
+	position: absolute;
+	z-index: 1;
+	width: 3%;
+	height: 100%;
+	margin-top: -2px;
+	cursor:pointer;
+}
+#search{ 
+	width:100%;
+	height:100%; 
+	z-index:10;
+	background:#000; 
+	position: absolute;
+	FILTER:alpha(opacity=60); 
+	opacity:0.8; 
+	-moz-opacity:0.8; 
+	left:0; 
+	bottom:0; 
+	display: block;
+	text-align: center;
+	display: none;
+}
+#search img{	
+	font-size: 18px;
+	display:block;
+	color:#FFF; 
+	overflow:hidden;
+	height: 30%;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 30%;
 }
 .teamintruduce{
 	width: 70%;
 	float: left;
 	margin-left: 15%;
-	border: 1px solid black;
+}
+.teamintruduce p span{
+	color: red;
+}
+.teammember1,.teammember2,.teammember3,.teammember4,.teammember5,.teammember6,.teammember7,.teammember8,.teammember9,.teammember10,
+.teammember11,.teammember12,.teammember13,.teammember14,.teammember15,.teammember16,.teammember17,.teammember18,.teammember19,
+.teammember20,.teammember21,.teammember22{
+	-ms-transform:rotate(-45deg); 	/* IE 9 */
+	-moz-transform:rotate(-45deg); 	/* Firefox */
+	-webkit-transform:rotate(-45deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-45deg); 
+	position: absolute;
+	overflow: hidden;
+}
+.teammember1{
+	margin-left: 39%;
+	margin-top: 7%;
+}
+.teammember2{
+	margin-left: 43%;
+	margin-top: 22%;
+}
+.teammember3{
+	margin-left: 33%;
+	margin-top: 15%;
+}
+.teammember4{
+	margin-left: 46%;
+	margin-top: 12%;
+}
+.teammember5{
+	margin-left: 56%;
+	margin-top: 9%;
+}
+.teammember6{
+	margin-left: 50%;
+	margin-top: 25%;
+}
+.teammember7{
+	margin-left: 55.5%;
+	margin-top: 19.5%;
+}
+.teammember8{
+	margin-left: 61%;
+	margin-top: 14%;
+}
+.teammember9{
+	margin-left: 62%;
+	margin-top: 25%;
+}
+.teammember13{
+	margin-left: 66.5%;
+	margin-top: 18.5%;
+}
+.teammember14{
+	margin-left: 27%;
+	margin-top: 22%;
+}
+.teammember18{
+	margin-left: 32%;
+	margin-top: 12%;
+}
+.teammember10{
+	margin-left: 36%;
+	margin-top: 11.5%;
+}
+.teammember15{
+	margin-left: 31.5%;
+	margin-top: 16.5%;
+}
+.teammember16{
+	margin-left: 53.5%;
+	margin-top: 10%;
+}
+.teammember17{
+	margin-left: 59.5%;
+	margin-top: 28.5%;
+}
+.teammember19{
+	margin-left: 48%;
+	margin-top: 28.5%;
+}
+.teammember20{
+	margin-left: 69%;
+	margin-top: 16%;
+}
+.teammember12{
+	margin-left: 49%;
+	margin-top: 10%;
+}
+.teammember13{
+	margin-left: 67%;
+	margin-top: 18.5%;
+}
+.teammember21{
+	margin-left: 32%;
+	margin-top: 12%;
+}
+.teammember22{
+	margin-left: 68%;
+	margin-top: 15%;
+}
+#person1,#person2,#person3,#person4,#person5,#person6,#person7,#person8,#person9,#person10,#person11,#person12{ 
+    width:100%;
+	height:100%; 
+	z-index:10;
+	background:#000; 
+	FILTER:alpha(opacity=60); 
+	opacity:0.7; 
+	-moz-opacity:0.7; 
+	position:absolute; 
+	left:0; 
+	bottom:0; 
+	display: block;
+	text-align: center;
+}
+#person1 span,#person2 span,#person3 span,#person4 span,#person5 span,#person6 span,#person7 span,
+#person8 span,#person9 span,#person10 span,#person11 span,#person12 span{
+	-ms-transform:rotate(45deg); 	/* IE 9 */
+	-moz-transform:rotate(45deg); 	/* Firefox */
+	-webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+	-o-transform:rotate(45deg);
+	font-size: 18px;
+	margin-top: 40%;
+	display:block;
+	color:#FFF; 
+	overflow:hidden;
+	float: left;
+}
+#person2 span{
+	font-size: 15px;
+}
+#person3 span{
+	font-size: 10px;
+}
+#person5 span{
+	font-size: 8px;
+}
+#person6 span{
+	font-size: 8px;
+}
+#person7 span{
+	font-size: 15px;
+}
+#person8 span{
+	font-size: 8px;
+}
+#person9 span{
+	font-size: 8px;
+}
+#person10 span{
+	font-size: 15px;
+}
+#person11 span{
+	font-size: 10px;
+}
+#person12 span{
+	font-size: 1px;
+	margin-top: 0;
+}
+.font span{
+	display: block;
 }
 .footer{
 	width: 100%;
-	height:3%;
+	height:15%;
 	border: 1px solid blue;
 	background-color: #4B4B4B;
+    margin-top: 30%;
 }
 .footer span{
 	float: left;
