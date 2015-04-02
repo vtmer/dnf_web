@@ -19,6 +19,6 @@ items[i].style['transform'] = items[i].style['-webkit-transform'] = 'translate('
 } 
 }, false); 
 }
-
+<!--=================首页banner随着鼠标移动小范围内移动======================-->
 
 

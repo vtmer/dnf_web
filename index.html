@@ -5,234 +5,235 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="description" content="vtmer" />
 	<meta name="keywords" content="vtmer" />
-	<link rel="stylesheet" type="text/css" href="asset/css/style.css">
+	<link rel="stylesheet" href="asset/css/style.css">
+	<link rel="stylesheet" href="asset/css/jquery.fullPage.css">
 	<script src="asset/js/jquery-1.3.2.js"></script>
 	<script src="asset/js/jquery-1.7.2.min.js"></script>
-	<script src="asset/js/slide.js"></script>
-	<script src="asset/js/control.js"></script>
+	<script src="asset/js/jquery-1.8.3.min.js"></script>
+	<script src="asset/js/jquery.fullPage.min.js"></script>
+	<script src="asset/js/jqcontrol.js"></script>
+	<script src="asset/js/jscontrol.js"></script>
 </head>
 <body>
-	<div id="home" class="home">
-		<div class="nav">
-			<ul>
-				<li id="logoposition"><a href="#"  id="logo">vtmer</a></li>
-				<li><a href="#" id="course">教程</a></li>
-				<li><a href="#" id="blog">blog</a></li>
-				<li><a href="#product" id="product">产品</a></li>
-				<li><a href="#us" id="us">我们</a></li>
-			</ul>
+	<div id="dowebok">
+		<div  class="section" id="home">
+			<div class="nav">
+				<ul>
+					<li id="logoposition"><a href="#"  id="logo">vtmer</a></li>
+					<li><a href="#" class="courseline">教程</a></li>
+					<li><a href="#" class="blogline">blog</a></li>
+					<li><a href="#" class="productline">产品</a></li>
+					<li><a href="#" class="usline">我们</a></li>
+				</ul>
+			</div>
+			<div class="banner">
+				<div class="banner1" onmousemove="shake(this.id)" id="banner1"><img src="asset/img/banner/banner_01.png"></div>
+				<div class="banner2" onmousemove="shake(this.id)" id="banner2"><img src="asset/img/banner/banner_02.png"></div>
+				<div class="banner3" onmousemove="shake(this.id)" id="banner3"><img src="asset/img/banner/banner_03.png"></div>
+				<div class="banner4" onmousemove="shake(this.id)" id="banner4"><img src="asset/img/banner/banner_04.png"></div>
+				<div class="banner5" onmousemove="shake(this.id)" id="banner5"><img src="asset/img/banner/banner_05.png"></div>
+				<div class="banner6" onmousemove="shake(this.id)" id="banner6"><img src="asset/img/banner/banner_06.png"></div>
+				<div class="banner7" onmousemove="shake(this.id)" id="banner7"><img src="asset/img/banner/banner_07.png"></div>
+				<div class="banner8" onmousemove="shake(this.id)" id="banner8"><img src="asset/img/banner/banner_08.png"></div>
+				<div class="banner9" onmousemove="shake(this.id)" id="banner9"><img src="asset/img/banner/banner_09.png"></div>
+				<div class="banner10" onmousemove="shake(this.id)" id="banner10"><img src="asset/img/banner/banner_10.png"></div>
+				<div class="banner11" onmousemove="shake(this.id)" id="banner11"><img src="asset/img/banner/banner_11.png"></div>
+				<div class="banner12" onmousemove="shake(this.id)" id="banner12"><img src="asset/img/banner/banner_12.png"></div>
+				<div class="banner13" onmousemove="shake(this.id)" id="banner13"><img src="asset/img/banner/banner_13.png"></div>
+				<div class="banner14" onmousemove="shake(this.id)" id="banner14"><img src="asset/img/banner/banner_14.png"></div>
+			</div>
 		</div>
-		<div class="banner">
-			<div class="banner1" onmousemove="shake(this.id)" id="banner1"><img src="asset/images/banner/banner_01.png"></div>
-			<div class="banner2" onmousemove="shake(this.id)" id="banner2"><img src="asset/images/banner/banner_02.png"></div>
-			<div class="banner3" onmousemove="shake(this.id)" id="banner3"><img src="asset/images/banner/banner_03.png"></div>
-			<div class="banner4" onmousemove="shake(this.id)" id="banner4"><img src="asset/images/banner/banner_04.png"></div>
-			<div class="banner5" onmousemove="shake(this.id)" id="banner5"><img src="asset/images/banner/banner_05.png"></div>
-			<div class="banner6" onmousemove="shake(this.id)" id="banner6"><img src="asset/images/banner/banner_06.png"></div>
-			<div class="banner7" onmousemove="shake(this.id)" id="banner7"><img src="asset/images/banner/banner_07.png"></div>
-			<div class="banner8" onmousemove="shake(this.id)" id="banner8"><img src="asset/images/banner/banner_08.png"></div>
-			<div class="banner9" onmousemove="shake(this.id)" id="banner9"><img src="asset/images/banner/banner_09.png"></div>
-			<div class="banner10" onmousemove="shake(this.id)" id="banner10"><img src="asset/images/banner/banner_10.png"></div>
-			<div class="banner11" onmousemove="shake(this.id)" id="banner11"><img src="asset/images/banner/banner_11.png"></div>
-			<div class="banner12" onmousemove="shake(this.id)" id="banner12"><img src="asset/images/banner/banner_12.png"></div>
-			<div class="banner13" onmousemove="shake(this.id)" id="banner13"><img src="asset/images/banner/banner_13.png"></div>
-			<div class="banner14" onmousemove="shake(this.id)" id="banner14"><img src="asset/images/banner/banner_14.png"></div>
-		</div>
-		<div class="scrollbtn">
-			<a href="#us">
-				<img src="asset/images/scrollbtn.png"/>
-			</a>
-		</div>
-	</div>
 
-	<div class="us" id="us">
+		<div class="section" id="us">
+				<div class= "title">
+					<h1>关于我们</h1>
+					<p>About us</p>
+				</div>
+				<div class="us-introduce">
+					<p>
+					这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍
+					这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍
+					这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍
+					<p>
+				</div>
+				<div class="visual">
+					<img src="asset/img/visual-communication.png">
+					<h1>视觉传达设计</h1>
+					<p>又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介</p>
+				</div>
+				<div class="visual">
+					<img src="asset/img/visual-communication.png">
+					<h1>视觉传达设计</h1>
+					<p>又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介</p>
+				</div>
+				<div class="visual">
+					<img src="asset/img/visual-communication.png">
+					<h1>视觉传达设计</h1>
+					<p>又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介</p>
+				</div>
+		</div>
+		<!--=================home======================-->
+		<div class="section" id="product">
 			<div class= "title">
-				<h1>关于我们</h1>
-				<p>About us</p>
+				<h1>优秀产品</h1>
+				<p>Our product</p>
 			</div>
-			<div class="us-introduce">
-				<p>
-				这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍
-				这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍
-				这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍这是一段简短的介绍
-				<p>
+			<center>
+				<div class="sudyslider">
+					<div class="slider-container">
+						<ul class="sliders" id="sliders" style="left:0;">
+							<li class="slide0">
+								<img src="asset/img/0.png">
+								<a href="#"><div class="search0" id="search"><img src="asset/img/search.png"></div></a>
+							</li>
+							<li class="slide1">
+								<img src="asset/img/1.png">
+								<a href="#"><div class="search1" id="search"><img src="asset/img/search.png"></div></a>
+							</li>
+							<li class="slide2">
+								<img src="asset/img/2.png">
+								<a href="#"><div class="search2" id="search"><img src="asset/img/search.png"></div></a>
+							</li>
+							<li class="slide3">
+								<img src="asset/img/3.png">
+								<a href="#"><div class="search3" id="search"><img src="asset/img/search.png"></div></a>
+							</li>
+							<li class="slide4">
+								<img src="asset/img/4.png">
+								<a href="#"><div class="search4" id="search"><img src="asset/img/search.png"></div></a>
+							</li>
+							<li class="slide5">
+								<img src="asset/img/5.png">
+								<a href="#"><div class="search5" id="search"><img src="asset/img/search.png"></div></a>
+							</li>
+							<li class="slide6">
+								<img src="asset/img/6.png">
+								<a href="#"><div class="search6" id="search"><img src="asset/img/search.png"></div></a>
+							</li>
+							<li class="slide7">
+								<img src="asset/img/7.png">
+								<a href="#"><div class="search7" id="search"><img src="asset/img/search.png"></div></a>
+							</li>
+							<li class="slide8">
+								<img src="asset/img/8.png">
+								<a href="#"><div class="search8" id="search"><img src="asset/img/search.png"></div></a>
+							</li>
+							<li class="slide9">
+								<img src="asset/img/9.png">
+								<a href="#"><div class="search9" id="search"><img src="asset/img/search.png"></div></a>
+							</li>
+							<li class="slide10">
+								<img src="asset/img/10.png">
+								<a href="#"><div class="search10" id="search"><img src="asset/img/search.png"></div></a>
+							</li>
+						</ul>
+					</div>
+					<div class="scrollbar">
+						<div class="scrollcontrol" id="scrollcontrol"><span class="widget" id="widget" style="left:8px;"><img src="asset/img/scroll.png"></span></div>
+					</div>
+				</div>
+			</center>
+		</div>
+		<!--=================product======================-->
+		<div class="section" id="team">
+			<div class= "title">
+				<h1>我们的团队</h1>
+				<p>Our team</p>
 			</div>
-			<div class="visual">
-				<img src="asset/images/visual-communication.png">
-				<h1>视觉传达设计</h1>
-				<p>又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介</p>
+			<div class="teamintruduce">
+				<p>我们来自五湖四海，我们走向四面八方，但我们心向一方。我们热爱互联网，我们<span>Free!Geek!Share!Active!</span>
+				</p>
 			</div>
-			<div class="visual">
-				<img src="asset/images/visual-communication.png">
-				<h1>视觉传达设计</h1>
-				<p>又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介</p>
+			<div>
+				<div class="teammember4">
+					<img src="asset/image/4.png"/>
+					<div id="person1">
+						<a href="#">姓名：叶丽丹<br/>组别：设计组</a>
+					</div>
+				</div>
+				<div class="teammember1">
+					<img src="asset/image/1.png"/>
+					<div id="person2">
+						<a href="#">姓名：叶丽丹<br/>组别：设计组</a>
+					</div>
+				</div>
+				<div class="teammember2">
+					<img src="asset/image/2.png"/>
+					<div id="person3">
+						<a href="#">姓名：叶丽丹<br/>组别：设计组</a>
+					</div>
+				</div>
+				<div class="teammember3">
+					<img src="asset/image/3.png"/>
+					<div id="person4">
+						<a href="#">姓名：叶丽丹<br/>组别：设计组</a>
+					</div>
+				</div>
+				<div class="teammember5">
+					<img src="asset/image/5.png"/>
+					<div id="person5">
+						<a href="#">姓名：叶丽丹<br/>组别：设计组</a>
+					</div>
+				</div>
+				<div class="teammember6">
+					<img src="asset/image/6.png"/>
+					<div  id="person6">
+						<a href="#">姓名：叶丽丹<br/>组别：设计组</a>
+					</div>
+				</div>
+				<div class="teammember7">
+					<img src="asset/image/7.png"/>
+					<div id="person7">
+						<a href="#">姓名：叶丽丹<br/>组别：设计组</a>
+					</div>
+				</div>
+				<div class="teammember8">
+					<img src="asset/image/8.png"/>
+					<div id="person8">
+						<a href="#">姓名：叶丽丹<br/>组别：设计组</a>
+					</div>
+				</div>
+				<div class="teammember9">
+					<img src="asset/image/9.png"/>
+					<div id="person9">
+						<a href="#">姓名：叶丽丹<br/>组别：设计组</a>
+					</div>
+				</div>
+				<div class="teammember13">
+					<img src="asset/image/13.png"/>
+					<div id="person10">
+						<a href="#">姓名：叶丽丹<br/>组别：设计组</a>
+					</div>
+				</div>
+				<div class="teammember14">
+					<img src="asset/image/14.png"/>
+					<div id="person11">
+						<a href="#">姓名：叶丽丹<br/>组别：设计组</a>
+					</div>
+				</div>
+				<div class="teammember10"><img src="asset/image/10.png"/></div>
+				<div class="teammember15"><img src="asset/image/10.png"/></div>
+				<div class="teammember16"><img src="asset/image/10.png"/></div>
+				<div class="teammember17"><img src="asset/image/10.png"/></div>
+			    <div class="teammember19"><img src="asset/image/11.png"/></div>
+				<div class="teammember20"><img src="asset/image/11.png"/></div>
+				<div class="teammember12"><img src="asset/image/12.png"/></div>
+				<div class="teammember22"><img src="asset/image/12.png"/></div>
+				<div class="teammember21">
+					<img src="asset/image/16.png"/>
+					<div id="person12">
+						<a href="#">姓名：叶丽丹<br/>组别：设计组</a>
+					</div>
+				</div>
 			</div>
-			<div class="visual">
-				<img src="asset/images/visual-communication.png">
-				<h1>视觉传达设计</h1>
-				<p>又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介又是一段简介</p>
+		</div>
+		<!--=================team======================-->
+		<div class="section" id="contact">
+			<div class= "title">
+				<h1>联系我们</h1>
+				<p>Get in touch with us</p>
 			</div>
 	</div>
-	<!--=================home======================-->
-	<div class="product" id="product">
-		<div class= "title">
-			<h1>优秀产品</h1>
-			<p>Our product</p>
-		</div>
-		<center>
-			<div class="sudyslider">
-				<div class="slider-container">
-					<ul class="sliders" id="sliders" style="left:0;">
-						<li class="slide0">
-							<img src="asset/images/0.png">
-							<a href="#"><div class="search0" id="search"><img src="asset/images/search.png"></div></a>
-						</li>
-						<li class="slide1">
-							<img src="asset/images/1.png">
-							<a href="#"><div class="search1" id="search"><img src="asset/images/search.png"></div></a>
-						</li>
-						<li class="slide2">
-							<img src="asset/images/2.png">
-							<a href="#"><div class="search2" id="search"><img src="asset/images/search.png"></div></a>
-						</li>
-						<li class="slide3">
-							<img src="asset/images/3.png">
-							<a href="#"><div class="search3" id="search"><img src="asset/images/search.png"></div></a>
-						</li>
-						<li class="slide4">
-							<img src="asset/images/4.png">
-							<a href="#"><div class="search4" id="search"><img src="asset/images/search.png"></div></a>
-						</li>
-						<li class="slide5">
-							<img src="asset/images/5.png">
-							<a href="#"><div class="search5" id="search"><img src="asset/images/search.png"></div></a>
-						</li>
-						<li class="slide6">
-							<img src="asset/images/6.png">
-							<a href="#"><div class="search6" id="search"><img src="asset/images/search.png"></div></a>
-						</li>
-						<li class="slide7">
-							<img src="asset/images/7.png">
-							<a href="#"><div class="search7" id="search"><img src="asset/images/search.png"></div></a>
-						</li>
-						<li class="slide8">
-							<img src="asset/images/8.png">
-							<a href="#"><div class="search8" id="search"><img src="asset/images/search.png"></div></a>
-						</li>
-						<li class="slide9">
-							<img src="asset/images/9.png">
-							<a href="#"><div class="search9" id="search"><img src="asset/images/search.png"></div></a>
-						</li>
-						<li class="slide10">
-							<img src="asset/images/10.png">
-							<a href="#"><div class="search10" id="search"><img src="asset/images/search.png"></div></a>
-						</li>
-					</ul>
-				</div>
-				<div class="scrollbar">
-					<div class="scrollcontrol" id="scrollcontrol"><span class="widget" id="widget" style="left:8px;"><img src="asset/images/scroll.png"></span></div>
-				</div>
-			</div>
-		</center>
-	<!--=================product======================-->
-	<div class="team" id="team">
-		<div class= "title">
-			<h1>我们的团队</h1>
-			<p>Our team</p>
-		</div>
-		<div class="teamintruduce">
-			<p>我们来自五湖四海，我们走向四面八方，但我们心向一方。我们热爱互联网，我们<span>Free!Geek!Share!Active!</span>
-			</p>
-		</div>
-		<div>
-			<div class="teammember4">
-				<a href="#"><img src="asset/images/image/4.png"/></a>
-				<div id="person1">
-					<span>姓名：叶丽丹<br/>组别：设计组</span>
-				</div>
-			</div>
-			<div class="teammember1">
-				<a href="#"><img src="asset/images/image/1.png"/></a>
-				<div id="person2">
-					<span>姓名：叶丽丹<br/>组别：设计组</span>
-				</div>
-			</div>
-			<div class="teammember2">
-				<a href="#"><img src="asset/images/image/2.png"/></a>
-				<div id="person3">
-					<span>姓名：叶丽丹<br/>组别：设计组</span>
-				</div>
-			</div>
-			<div class="teammember3">
-				<a href="#"><img src="asset/images/image/3.png"/></a>
-				<div id="person4">
-					<span>姓名：叶丽丹<br/>组别：设计组</span>
-				</div>
-			</div>
-			<div class="teammember5">
-				<a href="#"><img src="asset/images/image/5.png"/></a>
-				<div id="person5">
-					<span>姓名：叶丽丹<br/>组别：设计组</span>
-				</div>
-			</div>
-			<div class="teammember6">
-				<a href="#"><img src="asset/images/image/6.png"/></a>
-				<div  id="person6">
-					<span>姓名：叶丽丹<br/>组别：设计组</span>
-				</div>
-			</div>
-			<div class="teammember7">
-				<a href="#"><img src="asset/images/image/7.png"/></a>
-				<div id="person7">
-					<span>姓名：叶丽丹<br/>组别：设计组</span>
-				</div>
-			</div>
-			<div class="teammember8">
-				<a href="#"><img src="asset/images/image/8.png"/></a>
-				<div id="person8">
-					<span>姓名：叶丽丹<br/>组别：设计组</span>
-				</div>
-			</div>
-			<div class="teammember9">
-				<a href="#"><img src="asset/images/image/9.png"/></a>
-				<div id="person9">
-					<span>姓名：叶丽丹<br/>组别：设计组</span>
-				</div>
-			</div>
-			<div class="teammember13">
-				<a href="#"><img src="asset/images/image/13.png"/></a>
-				<div id="person10">
-					<span>姓名：叶丽丹<br/>组别：设计组</span>
-				</div>
-			</div>
-			<div class="teammember14">
-				<a href="#"><img src="asset/images/image/14.png"/></a>
-				<div id="person11">
-					<span>姓名：叶丽丹<br/>组别：设计组</span>
-				</div>
-			</div>
-			<div class="teammember10"><img src="asset/images/image/10.png"/></div>
-			<div class="teammember15"><img src="asset/images/image/10.png"/></div>
-			<div class="teammember16"><img src="asset/images/image/10.png"/></div>
-			<div class="teammember17"><img src="asset/images/image/10.png"/></div>
-		    <div class="teammember19"><img src="asset/images/image/11.png"/></div>
-			<div class="teammember20"><img src="asset/images/image/11.png"/></div>
-			<div class="teammember12"><img src="asset/images/image/12.png"/></div>
-			<div class="teammember22"><img src="asset/images/image/12.png"/></div>
-			<div class="teammember21">
-				<a href="#"><img src="asset/images/image/16.png"/></a>
-				<div id="person12">
-					<span>姓名：叶丽丹<br/>组别：设计组</span>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--=================team======================-->
-	<div class="contact" id="contact">
-		<div class= "title">
-			<h1>联系我们</h1>
-			<p>Get in touch with us</p>
-		</div>
 		<div class="footer" id="footer">
 		<span id="largefont">Vtmer<br/>维生数工作室</span>
 		<span>中国·广东<br/>广州市番禺区大学城<br/>广东工业大学综合楼304</span>
